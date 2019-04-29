@@ -1,0 +1,227 @@
+.taobien{
+  right: 40%;
+}
+.lothuoc{
+  position: relative;
+  z-index: 11;
+}
+.box3{
+  @media(min-width: 960px){
+    margin-right: -70px;
+  }
+}
+.box4{
+  @media(min-width: 960px){
+    padding-left: 90px;
+  }
+  padding-left: 50px;
+  padding-right: 50px;
+  font-family:'UTM AvoBold';
+  color: #2e2e2e;
+  font-size: 16.5px;
+  b{
+    font-size: 22.1px;
+    color: #34b01e;
+  }
+  span{
+    color: #34b01e;
+  }
+}
+.box5{
+  >div{
+    color: #FFFFFF;
+    font-family:'UTM AvoBold';
+    font-size: 15px;
+  }
+}
+.box6{
+  background-color: #f58534;
+  color: #FFFFFF;
+  font-family:'UTM AvoBold';
+  padding: 10px 15px;
+  text-transform: uppercase;
+  font-size: 17px;
+}
+.title1{
+  font-size: 35px;
+  font-family:'UTM AvoBold';
+  color: #f58534;
+}
+.block1{
+  min-height: 500px;
+}
+.box7{
+  width: 60px;
+  height: 60px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 28px;
+  font-family:'UTM AvoBold';
+  background-color: #fff;
+}
+.title2{
+  font-family:'UTM AvoBold';
+  font-size: 25px;
+  margin: 0;
+  text-transform: uppercase;
+}
+.card1{
+  &:nth-child(odd){
+    .box7{
+      color: #f58534;
+    }
+    .title2{
+      color: #f58534;
+    }
+    .uk-card-body{
+      p{
+
+        span{
+          color: #f58534;
+        }
+      }
+    }
+  }
+  &:nth-child(even){
+    .box7{
+      color: #56b852;
+    }
+    .title2{
+      color: #56b852;
+    }
+    .uk-card-body{
+      p{
+
+        span{
+          color: #56b852;
+        }
+      }
+    }
+  }
+  .uk-card-body{
+    p{
+      font-family:'UTM Avo';
+      font-size: 16px;
+      span{
+        font-family:'UTM AvoBold';
+      }
+    }
+  }
+}
+.block2{
+  min-height: 500px;
+  @media(min-width: 960px){
+    margin-top: -200px;
+  }
+}
+.img1{
+  max-width: 400px;
+  width: 100%;
+  position: relative;
+  z-index: 10;
+}
+.box8{
+  h3{
+    background-color: #56b852;
+    color: #FFFFFF;
+    padding: 3px 12px;
+    font-family:'UTM AvoBold';
+    font-size: 30px;
+    margin: 0;
+    text-align: center;
+    margin-left: -50px;
+  }
+  h4{
+    font-family:'UTM Avo';
+    color: #2e2e2e;
+    font-size: 30px;
+    margin: 0;
+    span{
+      font-family:'UTM AvoBold';
+      color: #56b852;
+      font-size: 50px;
+    }
+  }
+  hr{
+    border-color: #c0beb8;
+  }
+  p{
+    font-size: 15px;
+    font-family:'UTM Avo';
+    color: #2e2e2e;
+    span{
+      font-family:'UTM AvoBold';
+      color: #f58534;
+    }
+  }
+}
+.block3{
+  min-height: 500px;
+  font-family:'UTM Avo';
+  font-size: 17px;
+  @media(max-width: 960px){
+    padding-top: 450px;
+    background-position: center top;
+  }
+  p{
+    span{
+      font-family:'UTM AvoBold';
+      color: #56b852;
+    }
+  }
+  ul{
+    li{
+      span{
+        font-family:'UTM AvoBold';
+        color: #56b852;
+      }
+    }
+  }
+}
+.block4{
+  min-height: 300px;
+  @media(max-width: 960px){
+    padding-top: 400px;
+    background-position: center top;
+  }
+}
+.block5{
+  h3{
+    background-color: #56b852;
+    color: #FFFFFF;
+    font-family:'UTM AvoBold';
+    padding: 3px 12px;
+    padding-left: 0;
+    font-size: 27px;
+    text-transform: uppercase;
+    position: relative;
+    &:before{
+      content: '';
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      right: 100%;
+      width: 100vw;
+      background-color: #56b852;
+    }
+  }
+}
+.block6{
+  min-height: 500px;
+  margin-bottom: -100px;
+  .uk-grid-large{
+    @media(min-width: 960px){
+      margin-left: -165px;
+      >div{
+        padding-left: 165px;
+      }
+    }
+  }
+}
+.cogai{
+  @media(max-width: 960px){
+    position: static !important;
+    transform: translate(0);
+  }
+}

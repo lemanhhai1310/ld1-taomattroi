@@ -1,0 +1,38 @@
+#footer{
+  position: relative;
+  z-index: 10;
+  .top{
+    font-size: 15px;
+    font-family:'UTM AvoItalic';
+    color: #787878;
+  }
+  .center{
+    background-color: rgba(245, 133, 52, 0.8);
+  }
+  .bottom{
+    height: 20px;
+    background-color: #f58534;
+  }
+}
+.box1{
+  border: 1px solid #FFFFFF;
+  padding: 10px 15px;
+  color: #FFFFFF;
+  text-align: center;
+  font-family:'UTM AvoBold';
+  font-size: 21px;
+  display: inline-block;
+}
+.box2{
+  .txt{
+    font-size: 19px;
+    font-family:'UTM AvoBold_Italic';
+    color: #2e2e2e;
+    margin-bottom: 10px;
+  }
+  .box_img{
+    min-height: 94px;
+    display: inline-flex;
+    align-items: center;
+  }
+}
